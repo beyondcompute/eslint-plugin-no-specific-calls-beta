@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-no-specific-calls-beta",
+  "version": "0.0.1",
+  "description": "disallow calling certain functions or methods",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Evgeny Kulikov",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC",
+  "private": true
+}
